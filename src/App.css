@@ -1,0 +1,53 @@
+/* App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: añade sombra al formulario */
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #fdfdfd; /* Cambiado para mejor visibilidad */
+}
+
+.form-input,
+.form-textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 5%; /* Ajusta los márgenes para centrar y mantener el ancho al 90% */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 5%; /* Ajusta el margen para centrar el botón */
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Opcional: elimina el borde del botón */
+  border-radius: 4px;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline-color: #4CAF50;
+}
